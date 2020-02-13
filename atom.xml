@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pixardan.com/"/>
-  <updated>2020-02-11T15:54:20.274Z</updated>
+  <updated>2020-02-13T13:21:34.908Z</updated>
   <id>https://pixardan.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>postName</title>
-    <link href="https://pixardan.com/archives/ea3d45b1.html"/>
-    <id>https://pixardan.com/archives/ea3d45b1.html</id>
-    <published>2020-02-11T18:41:35.000Z</published>
-    <updated>2020-02-11T15:54:20.274Z</updated>
+    <title>Hexo Next v7.0+ 主题配置</title>
+    <link href="https://pixardan.com/archives/ec250bb0.html"/>
+    <id>https://pixardan.com/archives/ec250bb0.html</id>
+    <published>2020-02-13T00:19:35.000Z</published>
+    <updated>2020-02-13T13:21:34.908Z</updated>
     
     <summary type="html">
     
@@ -29,9 +29,50 @@
       
         
         
-          &lt;h2 id=&quot;一个Titile&quot;&gt;&lt;a href=&quot;#一个Titile&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;一、主题配置&quot;&gt;&lt;a href=&quot;#一、主题配置&quot; class=&quot;headerlink&quot; title=&quot;一、主题配置&quot;&gt;&lt;/a&gt;一、主题配置&lt;/h2&gt;&lt;h3 id=&quot;1、配置侧边栏菜单&quot;&gt;&lt;a href=&quot;#1、配置侧边栏菜单&quot;
         
       
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Next v7.0+ 站点配置</title>
+    <link href="https://pixardan.com/archives/ec250bb0.html"/>
+    <id>https://pixardan.com/archives/ec250bb0.html</id>
+    <published>2020-02-12T23:50:00.000Z</published>
+    <updated>2020-02-12T16:17:51.185Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;站点的配置文件为根目录下的&lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、设置hexo永久链接&quot;&gt;&lt;a href=&quot;#一、设置hexo永久链接&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo常用命令</title>
+    <link href="https://pixardan.com/archives/ea3d45b1.html"/>
+    <id>https://pixardan.com/archives/ea3d45b1.html</id>
+    <published>2020-02-11T18:41:35.000Z</published>
+    <updated>2020-02-12T15:24:31.332Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;h3 id=&quot;常见命令&quot;&gt;&lt;a href=&quot;#常见命令&quot; class=&quot;headerlink&quot; title=&quot;常见命令&quot;&gt;&lt;/a&gt;常见命令&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo new &lt;span class=&quot;string&quot;&gt;&quot;postName&quot;&lt;/span&gt;      &lt;span class=&quot;comment&quot;&gt;# 新建文章&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo new page &lt;span class=&quot;string&quot;&gt;&quot;pageName&quot;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;# 新建页面&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo generate            &lt;span class=&quot;comment&quot;&gt;# 生成静态页面至public目录&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo server              &lt;span class=&quot;comment&quot;&gt;# 开启预览访问端口（默认端口4000，&#39;ctrl + c&#39;关闭server）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo deploy              &lt;span class=&quot;comment&quot;&gt;# 部署到GitHub&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo &lt;span class=&quot;built_in&quot;&gt;help&lt;/span&gt;                &lt;span class=&quot;comment&quot;&gt;# 查看帮助&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo version             &lt;span class=&quot;comment&quot;&gt;# 查看Hexo的版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -44,17 +85,12 @@
     <link href="https://pixardan.com/archives/4a17b156.html"/>
     <id>https://pixardan.com/archives/4a17b156.html</id>
     <published>2020-02-11T04:12:54.158Z</published>
-    <updated>2020-02-11T15:54:20.271Z</updated>
+    <updated>2020-02-12T15:22:19.096Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; i=&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;printf&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;%d&quot;&lt;/span&gt;,i);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
