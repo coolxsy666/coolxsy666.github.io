@@ -509,7 +509,7 @@
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
+    var GUEST = ['nick', 'mail'];
     var guest = 'nick,mail,link';
     guest = guest.split(',').filter(item => {
       return GUEST.includes(item);
@@ -520,7 +520,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       notify     : false,
       appId      : 'k3f2dVTm3ug2P5DCP3snxv6T-gzGzoHsz',
       appKey     : 'b8KhbydUy2oqwr97oW8Rd5l8',
-      placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+      placeholder: "ヾﾉ≧∀≦)o填写邮箱会收到回复的及时提醒哦",
       avatar     : 'robohash',
       meta       : guest,
       pageSize   : '10' || 10,

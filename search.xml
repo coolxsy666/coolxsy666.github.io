@@ -53,6 +53,8 @@
 <p>在主题配置文件中，查询lazyload：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Vanilla JavaScript plugin for lazyloading images.</span></span><br><span class="line"><span class="comment"># For more information: https://github.com/ApoorvSaxena/lozad.js</span></span><br><span class="line"><span class="attr">lazyload:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
+<blockquote class="blockquote-center"><p>看我！！</p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
