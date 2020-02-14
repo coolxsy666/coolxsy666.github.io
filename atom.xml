@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pixardan.com/"/>
-  <updated>2020-02-14T03:23:05.210Z</updated>
+  <updated>2020-02-14T11:38:00.065Z</updated>
   <id>https://pixardan.com/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo Next主题写作技巧大公开</title>
+    <link href="https://pixardan.com/archives/4d009f60.html"/>
+    <id>https://pixardan.com/archives/4d009f60.html</id>
+    <published>2020-02-14T19:07:00.000Z</published>
+    <updated>2020-02-14T11:38:00.065Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;准备参考的链接：&lt;br&gt;&lt;a href=&quot;https://www.jianshu.com/p/2dbc70871918&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;中文&lt;/a&gt;&lt;br&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://pixardan.com/categories/Hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://pixardan.com/tags/hexo/"/>
+    
+      <category term="next" scheme="https://pixardan.com/tags/next/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo Next v7.0+ 主题配置</title>
     <link href="https://pixardan.com/archives/ec250bb1.html"/>
     <id>https://pixardan.com/archives/ec250bb1.html</id>
     <published>2020-02-13T00:19:35.000Z</published>
-    <updated>2020-02-14T03:23:05.210Z</updated>
+    <updated>2020-02-14T11:46:39.400Z</updated>
     
     <summary type="html">
     
@@ -31,6 +60,12 @@
     </summary>
     
     
+      <category term="Hexo" scheme="https://pixardan.com/categories/Hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://pixardan.com/tags/hexo/"/>
+    
+      <category term="next" scheme="https://pixardan.com/tags/next/"/>
     
   </entry>
   
@@ -39,7 +74,7 @@
     <link href="https://pixardan.com/archives/ec250bb0.html"/>
     <id>https://pixardan.com/archives/ec250bb0.html</id>
     <published>2020-02-12T23:50:00.000Z</published>
-    <updated>2020-02-13T15:00:31.696Z</updated>
+    <updated>2020-02-14T03:54:43.243Z</updated>
     
     <summary type="html">
     
@@ -55,6 +90,12 @@
     </summary>
     
     
+      <category term="Hexo" scheme="https://pixardan.com/categories/Hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://pixardan.com/tags/hexo/"/>
+    
+      <category term="next" scheme="https://pixardan.com/tags/next/"/>
     
   </entry>
   
@@ -63,7 +104,7 @@
     <link href="https://pixardan.com/archives/ea3d45b1.html"/>
     <id>https://pixardan.com/archives/ea3d45b1.html</id>
     <published>2020-02-11T18:41:35.000Z</published>
-    <updated>2020-02-12T15:24:31.332Z</updated>
+    <updated>2020-02-14T03:57:13.421Z</updated>
     
     <summary type="html">
     
@@ -72,6 +113,10 @@
     </summary>
     
     
+      <category term="Hexo" scheme="https://pixardan.com/categories/Hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://pixardan.com/tags/hexo/"/>
     
   </entry>
   

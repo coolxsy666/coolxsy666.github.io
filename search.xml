@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo Next主题写作技巧大公开</title>
+    <url>/archives/4d009f60.html</url>
+    <content><![CDATA[<p>准备参考的链接：<br><a href="https://www.jianshu.com/p/2dbc70871918" target="_blank" rel="external nofollow noopener noreferrer">中文</a><br><a href="https://theme-next.org/docs/tag-plugins/note" target="_blank" rel="external nofollow noopener noreferrer">官方原版</a><br>图片路径：/archives/ec250bb1/scroll.png</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo Next v7.0+ 主题配置</title>
     <url>/archives/ec250bb1.html</url>
     <content><![CDATA[<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><h3 id="配置侧边栏菜单"><a href="#配置侧边栏菜单" class="headerlink" title="配置侧边栏菜单"></a>配置侧边栏菜单</h3><p>在主题配置文件中，修改如下代码：<br><code>||</code>右边是图标的名字，来自于fontawesome</p>
@@ -52,10 +65,24 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save lozad</span><br></pre></td></tr></table></figure>
 <p>在主题配置文件中，查询lazyload：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Vanilla JavaScript plugin for lazyloading images.</span></span><br><span class="line"><span class="comment"># For more information: https://github.com/ApoorvSaxena/lozad.js</span></span><br><span class="line"><span class="attr">lazyload:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<blockquote class="blockquote-center"><p>看我！！</p>
-</blockquote>
+<h3 id="文章末尾添加阅读结束"><a href="#文章末尾添加阅读结束" class="headerlink" title="文章末尾添加阅读结束"></a>文章末尾添加阅读结束</h3><p>实现效果：<br><img data-src="https://myblog-1301095563.cos.ap-beijing.myqcloud.com/img/20200214151350.png" alt="阅读结束"><br>首先在路径\themes\next\layout_macro中新建passage-end-tag.swig文件,并添加以下内容：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;     </span><br><span class="line">    &#123;% if not is_index %&#125;         </span><br><span class="line">    &lt;div style&#x3D;&quot;text-align:center;text-shadow: 0.1em 0.1em 0.15em #ccc;font-size:20px;&quot;&gt;</span><br><span class="line">        -------------本文结束&lt;i class&#x3D;&quot;fa fa-snowflake-o&quot;&gt;&lt;&#x2F;i&gt;感谢您的阅读-------------</span><br><span class="line">    &lt;&#x2F;div&gt;     </span><br><span class="line">    &#123;% endif %&#125; </span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+<p>接着打开\themes\next\layout_macro\post.swig文件，在post-body之后，post-footer之前添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;   </span><br><span class="line">    &#123;% if not is_index %&#125;     </span><br><span class="line">        &#123;% include &#39;passage-end-tag.swig&#39; %&#125;   </span><br><span class="line">    &#123;% endif %&#125; </span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+<p>然后打开主题配置文件（_config.yml),在末尾添加：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文章末尾添加“本文结束”标记 </span></span><br><span class="line"><span class="attr">passage_end_tag:</span>  </span><br><span class="line">    <span class="attr">enabled:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h3 id="个性化回到顶部"><a href="#个性化回到顶部" class="headerlink" title="个性化回到顶部"></a>个性化回到顶部</h3><p>将back-to-top按钮添加图片背景，添加CSS3动效即可。<br>本站使用的小猫上吊素材</p>
+<a class="btn" href="/archives/ec250bb1/scroll.png"><i class="fa fa-download fa-lg fa-fw"></i>点击下载</a>
+<p>然后在自定义样式文件`Hexo\source_data\styles.styl’中添加如下代码：</p>
+<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//自定义回到顶部样式</span></span><br><span class="line"><span class="selector-class">.back-to-top</span> &#123;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">60px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">70px</span>;  <span class="comment">//图片素材宽度</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">900px</span>;  <span class="comment">//图片素材高度</span></span><br><span class="line">  <span class="attribute">top</span>: -<span class="number">900px</span>;</span><br><span class="line">  <span class="attribute">bottom</span>: unset;</span><br><span class="line">  transition: all .5s ease-in-out;</span><br><span class="line">  <span class="attribute">background</span>: url(你的url);</span><br><span class="line"></span><br><span class="line">  <span class="comment">//隐藏箭头图标</span></span><br><span class="line">  &gt; <span class="selector-tag">i</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.back-to-top-on</span> &#123;</span><br><span class="line">    <span class="attribute">bottom</span>: unset;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">100vh</span> &lt; (<span class="number">900px</span> + <span class="number">200px</span>) ? calc( <span class="number">100vh</span> - <span class="number">900px</span> - <span class="number">200px</span> ) : <span class="number">0px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo Next v7.0+ 站点配置</title>
@@ -68,6 +95,13 @@
 <h2 id="三、取消对文章目录的自动编号-本博客已恢复"><a href="#三、取消对文章目录的自动编号-本博客已恢复" class="headerlink" title="三、取消对文章目录的自动编号(本博客已恢复)"></a>三、取消对文章目录的自动编号(本博客已恢复)</h2><p>还是在站点的配置文件中,将<code>number</code>设置为<code>false</code></p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Automatically add list number to toc.</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">false</span> <span class="comment"># 取消自动编号</span></span><br><span class="line">  <span class="comment"># If true, all words will placed on next lines if header width longer then sidebar width.</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If true, all level of TOC in a post will be displayed, rather than the activated part of it.</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Maximum heading depth of generated toc.</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo常用命令</title>
@@ -85,6 +119,12 @@
 
 <h3 id="博文列表显示阅读更多"><a href="#博文列表显示阅读更多" class="headerlink" title="博文列表显示阅读更多"></a>博文列表显示阅读更多</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span> #在合适的地方加入即可</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
