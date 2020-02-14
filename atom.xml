@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pixardan.com/"/>
-  <updated>2020-02-13T15:56:22.135Z</updated>
+  <updated>2020-02-14T02:02:06.931Z</updated>
   <id>https://pixardan.com/</id>
   
   <author>
@@ -21,17 +21,12 @@
     <link href="https://pixardan.com/archives/ec250bb1.html"/>
     <id>https://pixardan.com/archives/ec250bb1.html</id>
     <published>2020-02-13T00:19:35.000Z</published>
-    <updated>2020-02-13T15:56:22.135Z</updated>
+    <updated>2020-02-14T02:02:06.931Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;主题配置&quot;&gt;&lt;a href=&quot;#主题配置&quot; class=&quot;headerlink&quot; title=&quot;主题配置&quot;&gt;&lt;/a&gt;主题配置&lt;/h2&gt;&lt;h3 id=&quot;配置侧边栏菜单&quot;&gt;&lt;a href=&quot;#配置侧边栏菜单&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h2 id=&quot;主题配置&quot;&gt;&lt;a href=&quot;#主题配置&quot; class=&quot;headerlink&quot; title=&quot;主题配置&quot;&gt;&lt;/a&gt;主题配置&lt;/h2&gt;&lt;h3 id=&quot;配置侧边栏菜单&quot;&gt;&lt;a href=&quot;#配置侧边栏菜单&quot; class=&quot;headerlink&quot; title=&quot;配置侧边栏菜单&quot;&gt;&lt;/a&gt;配置侧边栏菜单&lt;/h3&gt;&lt;p&gt;在主题配置文件中，修改如下代码：&lt;br&gt;&lt;code&gt;||&lt;/code&gt;右边是图标的名字，来自于fontawesome&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 菜单设置为 菜单名: /菜单目录 || 菜单图标名字&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;menu:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;home:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;home&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;about:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/about/&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;user&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;tags:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/tags/&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;tags&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;categories:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/categories/&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;th&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;archives:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/archives/&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;archive&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;#schedule: /schedule/ || calendar&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;sitemap:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/sitemap.xml&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;sitemap&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;commonweal:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/404/&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;heartbeat&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;menu_settings:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;icons:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;# 显示图标&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;badges:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;  &lt;span class=&quot;comment&quot;&gt;# 显示统计信息&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
